@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    
 }
 
 body{
@@ -11,7 +10,6 @@ body{
   background-size: 100%;
   background-position-x: 30vw;
   background-position-y: -50vh;
-  
 }
 
 /* header start */
@@ -25,6 +23,9 @@ body{
     width: 100%;
     padding: 30px 0;
     /* height: 10vh; */     
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
 }
 
 
@@ -85,8 +86,10 @@ body{
 }
 
 .nav-bar :nth-child(1){
-  color: rgb(159, 62, 62);
+  color: rgb(51, 193, 124);
   text-decoration: underline;
+  font-weight: 400;
+  letter-spacing: 4px;
 }
 
 /* nav-bar end */
@@ -134,6 +137,7 @@ body{
     box-shadow: 14px 9px 33px -1px rgba(0,0,0,0.75);
     background: rgba(0, 0, 0, 0.39);
     backdrop-filter: blur(6.3px);
+    overflow: scroll;
 }
 
 .right-main h2{    
@@ -150,16 +154,41 @@ body{
     color: white;
     font-size: 1.7rem;
     /* background-color: royalblue; */
-    padding: 80px;    
+    padding: 80px;   
+    padding-top: 30px; 
     text-align: justify;
     line-height: 4vh;
 }
-.right-main p::first-line {
+
+.contact-first-page{
+    display: flex;    
+    justify-content:stretch;
+    position: relative;
+    left: 5%;
+    top: 5vh;
+    width: 90%;
+    height: 100px;
+    /* background-color: red; */
+}
+
+.tel{
+    position: relative;
+    /* background-color: #0093E9; */
+    width: 50%;
     text-align: center;
-    font-size: 2.3rem;
-    font-weight: bold;
-    text-decoration: underline;
-    
+    margin-top: 3vh;       
+}
+
+
+
+.adresa{
+    position: relative;
+    /* background-color: beige; */
+    width: 50%;
+    top: 25%;
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
 }
 
 /* footer start */
@@ -194,4 +223,92 @@ body{
     text-decoration: none;
 }
 
+
+/* Responsive start */
+
+@media only screen and (max-width: 1920px) {
+    .header {
+     
+    }
+
+   
+
+    .raluca{
+        height: 50px;
+    }
+
+    .ral{        
+        text-align: center;
+        /* background-color: white; */
+    }
+
+    .uca{
+        left: 15px;
+    }
+
+    .logo{
+        position: relative;
+        height: 75px;
+        width: 75px;
+        /* background-color: red; */
+        margin: -5px;
+    }
+
+    /* header end */
+
+    /* nav-bar start */
+
+    .nav-bar {
+            justify-content:space-evenly;
+    }
+
+    .nav-bar a{
+        font-size: 100%;
+        /* background-color: red; */
+        /* align-content: space-between; */
+        /* padding: 10px 0 10px 0;  */
+        margin:0;
+    }
+
+    /* nav-bar end */
+
+    /* main page start */
+
+    .main-page h2{
+        font-size: 2.3rem;         
+    }
+
+   
+
+    .main-page p{
+        font-size: 1.2rem;
+        line-height: 2.7rem;
+        padding-top: 5vh;
+    }
+
+    /* main page end */
+
+    /* footer start */
+
+    .footer{
+        height: 74px;
+    }
+
+    .social-network{
+        position: relative;
+        /* background-color: red; */
+        width: 15vw;
+        top: 10px;
+    }
+    .footer img{
+        width: 27px;
+        height: 27px;
+    }
+
+    .footer p{
+        position: relative;
+        bottom: 10px;
+    }
+    
+  }
 

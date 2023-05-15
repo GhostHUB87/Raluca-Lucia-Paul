@@ -4,10 +4,14 @@
 }
 
 body{
-    background-color: #8EC5FC;
-    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  background-image: url('images/law.jpg'); 
+  background-color: #8B8F84;
+  background-repeat:no-repeat;
+  background-size: 100%;
+  background-position-x: 30vw;
+  background-position-y: -50vh;
 }
- 
+
 /* header start */
 
 .header{
@@ -21,7 +25,10 @@ body{
     /* height: 10vh; */     
     background-color: #0093E9;
     background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
 }
+
+
 
 .ral {    
     text-align: center;
@@ -39,9 +46,8 @@ body{
 }
 
 .logo{
-    position: relative;
-    /* background-color: rgb(167, 70, 70); */
-    background-image: url("/images/logo3.svg");
+    position: relative;    
+    background-image: url("images/logo3.svg");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -79,135 +85,36 @@ body{
     text-decoration: underline;   
 }
 
-.nav-bar :nth-child(6){
-    color: rgb(51, 193, 124);
-    text-decoration: underline;
-    font-weight: 400;
-    letter-spacing: 4px;
+.nav-bar :nth-child(1){
+  color: rgb(51, 193, 124);
+  text-decoration: underline;
+  font-weight: 400;
+  letter-spacing: 4px;
 }
 
 /* nav-bar end */
 
+/* main-page start */
+
+
 .main-page{
     display: flex;
-    margin: 100px auto;   
-    justify-content: space-evenly;
-    align-items:center;
-    width: 80vw;
-    /* height: 100vh; */
-    /* background-color: rgb(170, 200, 201); */
-    text-align: justify;
-}
-
-.contact1{
-    display: flex;
     justify-content: center;
-    flex-direction: column;
-    width: 500px;
-    height: 500px;
-    /* background-color: rgb(175, 152, 152); */
-    margin: 10px;
-    /* border: 3px solid grey; */
-    text-align: center;
-}
-
-.contact1 * {
-    margin: 20px;
-}
-
-.contact1 h1{
-    color: rgb(0, 0, 0);    
-}
-
-.contact1 address{   
-    margin-top: 20px;
-}
-
-.contact2{
-    width: 35vw;
-    height: 600px;
-    /* background-color: rgb(175, 152, 152); */
-}
-
-.contact2 p{
     position: relative;
-    font-size: 2rem;
-    left: 2.5%;
-}
-
-.contact2 input{
-    position: relative;
-    width: 95%;
-    font-size: 2rem;
-    padding: 5px;
-    text-align: center;
-    margin-left: 2.5%;
-    border-color: transparent;
-    /* border-radius: 20px; */
-    height: 50px;
-    background-color: #fefefe20;
-    box-sizing: border-box; 
-}
-
-.contact2 input:focus{
-    
-  border: transparent
-}
-
-#mesaj{
-    background-color: transparent;
-    padding: 20px;
-    margin-left: 2.5%;
-    font-size: 2rem;
     width: 90%;
-    height: 260px;
-}
-
-
-
-#check{
-    position: relative;
-    display: inline-block;
-    background-color: red;
     left: 50%;
-    width: 30px;
-    height: 30px;    
-}
-
-
-.termeni{
-    font-size: 2rem;
+    margin-top: 100px;
+    transform: translateX(-50%);
+    max-width: 1800px;
+    
     /* background-color: red; */
-    display: inline-block;
-    margin-left: 50%;
+    
 }
 
 
 
 
-.trimite_mesaj{   
-    display: inline-block;
-    position: relative;
-    align-self: flex-end;
-    padding: 15px;
-    width: 150px;
-    /* left: 65%; */
-    font-size: 2rem;
-    /* transform: translateX(-65%) */
-}
 
-.imagine-harta{
-    position: relative;
-    margin: 100px auto;
-    height: 70vh;
-    /* width: 80%; */
-    background-image: url('../images/harta.png');
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-size: 80%;
- 
-}
 
 /* footer start */
 
@@ -241,14 +148,15 @@ body{
     text-decoration: none;
 }
 
-/* footer end */
 
-/* media query start */
+/* Responsive start */
 
 @media only screen and (max-width: 1920px) {
     .header {
-      background-color: rgb(133, 6, 6);     
+     
     }
+
+   
 
     .raluca{
         height: 50px;
@@ -271,11 +179,23 @@ body{
         margin: -5px;
     }
 
-    .nav-bar a{
-        font-size: 100%;
+    /* header end */
+
+    /* nav-bar start */
+
+    .nav-bar {
+            justify-content:space-evenly;
     }
 
-    /* header end */
+    .nav-bar a{
+        font-size: 100%;
+        /* background-color: red; */
+        /* align-content: space-between; */
+        /* padding: 10px 0 10px 0;  */
+        margin:0;
+    }
+
+    /* nav-bar end */
 
     /* main page start */
 
@@ -283,10 +203,7 @@ body{
         font-size: 2.3rem;         
     }
 
-    .right-main p::first-line {        
-        font-size: 1.8rem;
-        
-    }
+   
 
     .main-page p{
         font-size: 1.2rem;
@@ -319,5 +236,4 @@ body{
     }
     
   }
-
 
