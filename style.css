@@ -14,82 +14,20 @@ body{
 
 /* header start */
 
-.header{
-    display: flex;
-    justify-content: center;    
-    align-items: center;   
-    position: relative;
-    flex-wrap: wrap;
-    width: 100%;
-    padding: 30px 0;
-    /* height: 10vh; */     
-    background-color: #0093E9;
-    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
-
-}
-
-
-
-.ral {    
-    text-align: center;
-    font-size: 3.8rem;
-    float: left;
-    font-family: 'Calistoga', cursive;
-    padding-bottom: 0;
-    line-height: 4vh;
-}
-
-.uca{
-    text-align: center;
-    letter-spacing: 22px;
-    box-sizing: border-box;
-}
-
-.logo{
-    position: relative;    
+.logo{ 
     background-image: url("images/logo3.svg");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 90px;
-    height: 90px;
-    z-index: 111;
-    left: 4vw;
-    transform: scale(120%);
+
 }
 
 /* header end */
 
 /* nav-bar start */
 
-.nav-bar{
-    display: flex;
-    justify-content: center;
-    position: relative;    
-    background-color: rgba(0, 0, 0, 0.668);
-    box-shadow: 14px 9px 33px -1px rgba(0,0,0,0.75);   
-}
 
-.nav-bar a{
-    margin-left: 55px;
-    padding: 20px;
-    text-decoration: none;
-    font-size: 1.6rem;
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-
-    
-}
-
-.nav-bar a:hover{
-    text-decoration: underline;   
-}
 
 .nav-bar :nth-child(1){
   color: rgb(51, 193, 124);
   text-decoration: underline;
-  font-weight: 400;
-  letter-spacing: 4px;
 }
 
 /* nav-bar end */
@@ -115,7 +53,7 @@ body{
     background-color: rgb(178, 193, 188);
     width: 45%;
     /* height: 100%; */
-    background-image: url("images/Raluca.jpg");
+    background-image: url("images/Ralu.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;    
@@ -223,92 +161,6 @@ body{
     text-decoration: none;
 }
 
+/* footer end */
 
-/* Responsive start */
-
-@media only screen and (max-width: 1920px) {
-    .header {
-     
-    }
-
-   
-
-    .raluca{
-        height: 50px;
-    }
-
-    .ral{        
-        text-align: center;
-        /* background-color: white; */
-    }
-
-    .uca{
-        left: 15px;
-    }
-
-    .logo{
-        position: relative;
-        height: 75px;
-        width: 75px;
-        /* background-color: red; */
-        margin: -5px;
-    }
-
-    /* header end */
-
-    /* nav-bar start */
-
-    .nav-bar {
-            justify-content:space-evenly;
-    }
-
-    .nav-bar a{
-        font-size: 100%;
-        /* background-color: red; */
-        /* align-content: space-between; */
-        /* padding: 10px 0 10px 0;  */
-        margin:0;
-    }
-
-    /* nav-bar end */
-
-    /* main page start */
-
-    .main-page h2{
-        font-size: 2.3rem;         
-    }
-
-   
-
-    .main-page p{
-        font-size: 1.2rem;
-        line-height: 2.7rem;
-        padding-top: 5vh;
-    }
-
-    /* main page end */
-
-    /* footer start */
-
-    .footer{
-        height: 74px;
-    }
-
-    .social-network{
-        position: relative;
-        /* background-color: red; */
-        width: 15vw;
-        top: 10px;
-    }
-    .footer img{
-        width: 27px;
-        height: 27px;
-    }
-
-    .footer p{
-        position: relative;
-        bottom: 10px;
-    }
-    
-  }
 

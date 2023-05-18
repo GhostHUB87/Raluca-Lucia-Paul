@@ -1,25 +1,27 @@
 
 body{
-    background-color: #FBAB7E;
-    background-image: linear-gradient(62deg, #c59980 0%, #a38a4a 100%);
+  background-color: #8B8F84;
 }
 
 /* header start */
 
-.logo{
-      background-image: url("/images/logo3.svg");
+.logo{   
+    background-image: url("../images/logo3.svg");
 }
 
 /* header end */
 
 /* nav-bar start */
 
-.nav-bar :nth-child(2){
-    color: rgb(51, 193, 124);
-    text-decoration: underline;   
+.nav-bar :nth-child(6){
+  color: rgb(51, 193, 124);
+  text-decoration: underline;
 }
 
 /* nav-bar end */
+
+/* main-page start */
+
 
 .main-page{
     display: flex;
@@ -32,16 +34,20 @@ body{
     margin-top: 100px;
     transform: translateX(-50%);
     max-width: 1800px;    
-    background-color: rgb(30, 127, 93); 
+    background-color: rgb(30, 127, 93);    
 }
 
 .main-page h1{
-    /* background-color: rgb(207, 192, 192); */
+    position: relative;
     text-align: center;
     padding: 2.5rem;
+    /* background-color: #0093E9; */
+    text-decoration-line:underline;
+    text-decoration-color: #8B8F84;
 }
 
 .main-page ul{
+    /* background-color: red; */
     position: relative;
     left: 100px;
 }
@@ -50,21 +56,52 @@ body{
     position: relative;
     margin: 10px;
     font-size: 1.4rem;
+  
 }
+
 
 
 /* footer start */
 
+.footer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 100px;
+    width: 100%;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(107, 89, 89);
+    box-shadow: 0px -20px 19px -12px rgba(0,0,0,0.72);
+    margin: auto;   
+}
 
+.social-network{
+    display: flex;
+    justify-content:space-evenly;
+    /* background-color: beige; */
+    height: 50px;
+    width: 350px;
+}
 
-/* footer end */
+.footer p{
+    color: white;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
 
 /* Responsive start */
 
 @media only screen and (max-width: 1920px) {
     .header {
-      background-color: rgb(133, 6, 6);     
+     
     }
+
+   
 
     .raluca{
         height: 50px;
@@ -87,11 +124,23 @@ body{
         margin: -5px;
     }
 
-    .nav-bar a{
-        font-size: 100%;
+    /* header end */
+
+    /* nav-bar start */
+
+    .nav-bar {
+            justify-content:space-evenly;
     }
 
-    /* header end */
+    .nav-bar a{
+        font-size: 100%;
+        /* background-color: red; */
+        /* align-content: space-between; */
+        /* padding: 10px 0 10px 0;  */
+        margin:0;
+    }
+
+    /* nav-bar end */
 
     /* main page start */
 
@@ -99,10 +148,7 @@ body{
         font-size: 2.3rem;         
     }
 
-    .right-main p::first-line {        
-        font-size: 1.8rem;
-        
-    }
+   
 
     .main-page p{
         font-size: 1.2rem;
@@ -135,6 +181,4 @@ body{
     }
     
   }
-
-
 
