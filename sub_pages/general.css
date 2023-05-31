@@ -1,6 +1,13 @@
 *{
     padding: 0;
     margin: 0;
+    /* overflow-x: hidden; */
+}
+
+body{
+    background-color: #fbfbfb;
+    background-image: linear-gradient(135deg, #fbfbfb 0%, #dcdcdc 57%);
+    overflow-x: hidden;
 }
 
 /* header start */
@@ -13,8 +20,7 @@
     flex-wrap: wrap;
     width: 100%;
     padding: 30px 0;   
-    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
-  
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);  
 }
 
 
@@ -72,22 +78,48 @@
 
 
 
+
+
 /* nav-bar end */
 
 
+/* main page start */
+
+.main-page{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 90%;
+    min-height: 90vh;
+    left: 50%;
+    margin-top: 100px;
+    transform: translateX(-50%);
+    max-width: 1800px;  
+    background-color: #b8b8b8b7;
+    border-radius: 15px;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+}
+
+.main-page h1, h2{
+    color: rgb(0, 0, 0);
+    padding-bottom: 200px;
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.main-page ul{
+    position: relative;
+    left: 100px;
+}
+
+.main-page ul li{
+    position: relative;
+    margin: 10px;
+    font-size: 1.4rem;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
+/* main page end */
 
 /* footer start */
 
@@ -105,6 +137,7 @@
     background-color: rgb(107, 89, 89);
     box-shadow: 0px -20px 19px -12px rgba(0,0,0,0.72);
     margin: auto;
+   
 }
 
 .social-network{
@@ -113,13 +146,15 @@
     /* background-color: beige; */
     height: 50px;
     width: 350px;
+  
 }
 
 .footer p{
-    color: black;
-    margin-bottom: 0;
-    text-decoration: none;
+    color: rgb(252, 252, 252); 
+    font-size: 1.1rem;   
 }
+
+
 
 /* footer end */
 

@@ -1,171 +1,144 @@
-
-body{
-    background-color: #FBAB7E;
-    background-image: linear-gradient(62deg, #c59980 0%, #a38a4a 100%);
+body {
+  background-color: #fbab7e;
+  background-image: linear-gradient(62deg, #c59980 0%, #a38a4a 100%);
 }
 
 /* header start */
 
-
-.logo{
-    background-image: url("/images/logo3.svg");
+.logo {
+  background-image: url("/images/logo3.svg");
 }
 
 /* header end */
 
 /* nav-bar start */
 
-.nav-bar :nth-child(7){
-    color: rgb(51, 193, 124);
-    text-decoration: underline;
+.nav-bar :nth-child(7) {
+  color: rgb(51, 193, 124);
+  text-decoration: underline;
 }
 /* nav-bar end */
 
-.main-page{
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    position: relative;
-    width: 90%;
-    min-height: 90vh;
-    left: 50%;
-    margin-top: 100px;
-    transform: translateX(-50%);
-    max-width: 1800px;    
-    background-color: rgb(30, 127, 93);    
+.main-page {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  position: relative;
+  width: 90%;
+  min-height: 90vh;
+  left: 50%;
+  margin-top: 100px;
+  transform: translateX(-50%);
+  max-width: 1800px;
+  background-color: rgb(30, 127, 93);
 }
 
-.main-page h1{
-    position: relative;
-    text-align: center;
-    padding: 2.5rem;
-    /* background-color: #0093E9; */
-    text-decoration-line:underline;
-    text-decoration-color: #8B8F84;
+.main-page h1 {
+  position: relative;
+  text-align: center;
+  padding: 2.5rem;
+  /* background-color: #0093E9; */
+  text-decoration-line: underline;
+  text-decoration-color: #8b8f84;
 }
 
-.main-page ul{
-    /* background-color: red; */
-    position: relative;
-    left: 100px;
+.main-page ul {
+  /* background-color: red; */
+  position: relative;
+  left: 100px;
 }
 
-.main-page ul li{
-    position: relative;
-    margin: 10px;
-    font-size: 1.4rem;
-  
+.main-page ul li {
+  position: relative;
+  margin: 10px;
+  font-size: 1.4rem;
+}
+
+.main-page p {
+  position: relative;
+  /* background-color: red; */
+  width: 85%;
+  margin-left: 5vw;
+  padding: 30px;
+  font-size: 1.7rem !important;
+  color: rgb(46, 70, 62);
 }
 
 /* footer start */
-
-.footer{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    top: 100px;
-    width: 100%;
-    height: 100px;
-    padding: 0;
-    margin: 0;
-    background-color: rgb(107, 89, 89);
-    box-shadow: 0px -20px 19px -12px rgba(0,0,0,0.72);
-    margin: auto;   
-}
-
-.social-network{
-    display: flex;
-    justify-content:space-evenly;
-    /* background-color: beige; */
-    height: 50px;
-    width: 350px;
-}
-
-.footer p{
-    color: white;
-    margin-bottom: 0;
-    text-decoration: none;
-}
 
 /* footer end */
 
 /* media query start */
 
 @media only screen and (max-width: 1920px) {
-    .header {
-      background-color: rgb(133, 6, 6);     
-    }
-
-    .raluca{
-        height: 50px;
-    }
-
-    .ral{        
-        text-align: center;
-        /* background-color: white; */
-    }
-
-    .uca{
-        left: 15px;
-    }
-
-    .logo{
-        position: relative;
-        height: 75px;
-        width: 75px;
-        /* background-color: red; */
-        margin: -5px;
-    }
-
-    .nav-bar a{
-        font-size: 100%;
-    }
-
-    /* header end */
-
-    /* main page start */
-
-    .main-page h2{
-        font-size: 2.3rem;         
-    }
-
-    .right-main p::first-line {        
-        font-size: 1.8rem;
-        
-    }
-
-    .main-page p{
-        font-size: 1.2rem;
-        line-height: 2.7rem;
-        padding-top: 5vh;
-    }
-
-    /* main page end */
-
-    /* footer start */
-
-    .footer{
-        height: 74px;
-    }
-
-    .social-network{
-        position: relative;
-        /* background-color: red; */
-        width: 15vw;
-        top: 10px;
-    }
-    .footer img{
-        width: 27px;
-        height: 27px;
-    }
-
-    .footer p{
-        position: relative;
-        bottom: 10px;
-    }
-    
+  .header {
+    background-color: rgb(133, 6, 6);
   }
 
+  .raluca {
+    height: 50px;
+  }
 
+  .ral {
+    text-align: center;
+    /* background-color: white; */
+  }
+
+  .uca {
+    left: 15px;
+  }
+
+  .logo {
+    position: relative;
+    height: 75px;
+    width: 75px;
+    /* background-color: red; */
+    margin: -5px;
+  }
+
+  .nav-bar a {
+    font-size: 100%;
+  }
+
+  /* header end */
+
+  /* main page start */
+
+  .main-page h2 {
+    font-size: 2.3rem;
+  }
+
+  .right-main p::first-line {
+    font-size: 1.8rem;
+  }
+
+  .main-page p {
+    font-size: 1.2rem;
+    line-height: 2.7rem;
+    padding-top: 5vh;
+  }
+
+  /* main page end */
+
+  /* footer start */
+
+  .footer {
+    height: 74px;
+  }
+
+  .social-network {
+    position: relative;
+    /* background-color: red; */
+    width: 15vw;
+    top: 10px;
+  }
+  .footer img {
+    width: 27px;
+    height: 27px;
+  }
+
+  .footer p {
+    position: relative;
+    bottom: 10px;
+  }
+}

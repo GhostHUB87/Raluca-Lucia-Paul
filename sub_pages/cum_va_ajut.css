@@ -21,37 +21,13 @@ body{
 
 /* nav-bar end */
 
+/* main-page start */
+
 .main-page{
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    position: relative;
-    width: 90%;
-    min-height: 90vh;
-    left: 50%;
-    margin-top: 100px;
-    transform: translateX(-50%);
-    max-width: 1800px;    
-    background-color: rgb(30, 127, 93); 
+    
 }
 
-.main-page h1{
-    /* background-color: rgb(207, 192, 192); */
-    text-align: center;
-    padding: 2.5rem;
-}
-
-.main-page ul{
-    position: relative;
-    left: 100px;
-}
-
-.main-page ul li{
-    position: relative;
-    margin: 10px;
-    font-size: 1.4rem;
-}
-
+/* main-page end */
 
 /* footer start */
 

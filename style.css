@@ -4,12 +4,12 @@
 }
 
 body{
-  background-image: url('images/law.jpg'); 
-  background-color: #8B8F84;
-  background-repeat:no-repeat;
-  background-size: 100%;
-  background-position-x: 30vw;
-  background-position-y: -50vh;
+  background-image: url('images/law.jpg') !important; 
+  background-color: #8B8F84 !important;
+  background-repeat:no-repeat !important;
+  background-size: 100% !important;
+  background-position-x: 30vw !important;
+  background-position-y: -50vh ;
 }
 
 /* header start */
@@ -37,7 +37,8 @@ body{
 
 .main-page{
     display: flex;
-    justify-content: center;
+    flex-direction: row !important;
+    justify-content: space-between !important;
     position: relative;
     width: 90%;
     left: 50%;
@@ -45,17 +46,16 @@ body{
     transform: translateX(-50%);
     max-width: 1800px;
     
-    /* background-color: red; */
-    
+    background-color: rgba(255, 0, 0, 0) !important;
+    box-shadow: none !important;
 }
 
 .left-main{
     background-color: rgb(178, 193, 188);
     width: 45%;
-    /* height: 100%; */
-    background-image: url("images/Ralu.jpeg");
-    background-position: center;
+    background-image: url("images/v2.jpeg");   
     background-size: cover;
+    background-position: 35%;
     background-repeat: no-repeat;    
     border-radius: 20px;
     box-shadow: 14px 9px 33px -1px rgba(0,0,0,0.75);
@@ -66,11 +66,11 @@ body{
     display: flex;
     flex-direction: column;
     flex-shrink: 3;
-    margin: auto;   
+    /* margin: auto;    */
     width: 50%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.245);
-    box-sizing: border-box;
+    box-sizing: border-box;   
     border-radius: 20px;
     box-shadow: 14px 9px 33px -1px rgba(0,0,0,0.75);
     background: rgba(0, 0, 0, 0.39);
@@ -83,7 +83,7 @@ body{
     text-align: center;
     padding: 30px;
     font-size: 2.5rem;
-    color: aliceblue;
+    color: rgba(231, 228, 55, 0.761);
    
 }
 
@@ -111,56 +111,113 @@ body{
 
 .tel{
     position: relative;
+    font-size: 1.5rem;
+    font-weight: 500;
     /* background-color: #0093E9; */
     width: 50%;
     text-align: center;
-    margin-top: 3vh;       
+    margin-top: 3vh;
+    color: rgb(243, 243, 243);
+    line-height: 150%;       
 }
 
 
 
 .adresa{
     position: relative;
-    /* background-color: beige; */
+    /* background-color: rgba(185, 185, 185, 0.461); */
     width: 50%;
     top: 25%;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 
 /* footer start */
 
-.footer{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    top: 100px;
-    width: 100%;
-    height: 100px;
-    padding: 0;
-    margin: 0;
-    background-color: rgb(107, 89, 89);
-    box-shadow: 0px -20px 19px -12px rgba(0,0,0,0.72);
-    margin: auto;   
-}
-
-.social-network{
-    display: flex;
-    justify-content:space-evenly;
-    /* background-color: beige; */
-    height: 50px;
-    width: 350px;
-}
-
-.footer p{
-    color: white;
-    margin-bottom: 0;
-    text-decoration: none;
-}
 
 /* footer end */
 
+/* media query start */
 
+@media only screen and (max-width: 1920px) { 
+   .main-page {
+    height: 800px;
+    width: 95%;
+   }
+
+   .left-main {
+        width: 40%; 
+   }
+
+   .right-main{
+        width: 55%;
+   }
+
+   /* .right-main h2 {
+    background-color: red;
+    font-size: 2rem;
+    padding: 20px;
+   } */
+   
+
+   /* .right-main p{
+    background-color: rgb(54, 51, 45);
+    padding: 40px;
+    font-size: 1rem;
+    text-indent: 40px;
+    line-height: 3.8vh !important
+   } */
+}
+
+@media only screen and (max-width: 1680px){
+    .main-page {
+        width: 95%;
+    }
+
+    .left-main {
+        width: ;
+    }
+
+    .right-main {
+        width: 55%;
+        padding: 0;
+    }
+
+    .right-main h2{
+        padding: 0;
+        margin-top: 20px;
+    }
+
+    .right-main p{
+        padding: 5%;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 1440px){
+    .main-page {
+        width: 95%;
+    }
+
+    .left-main {
+        width:40% ;
+    }
+
+    .right-main {
+        width: 55%;
+        padding: 0;
+    }
+
+    .right-main h2{
+        padding: 0;
+        margin-top: 20px;
+    }
+
+    .right-main p{
+        padding: 1vw;
+        margin: 0;
+        font-size: 1.1rem !important;
+    }
+}

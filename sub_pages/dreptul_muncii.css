@@ -63,35 +63,7 @@ body{
 
 /* footer start */
 
-.footer{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    top: 100px;
-    width: 100%;
-    height: 100px;
-    padding: 0;
-    margin: 0;
-    background-color: rgb(107, 89, 89);
-    box-shadow: 0px -20px 19px -12px rgba(0,0,0,0.72);
-    margin: auto;   
-}
-
-.social-network{
-    display: flex;
-    justify-content:space-evenly;
-    /* background-color: beige; */
-    height: 50px;
-    width: 350px;
-}
-
-.footer p{
-    color: white;
-    margin-bottom: 0;
-    text-decoration: none;
-}
+/* footer end */
 
 
 /* Responsive start */
@@ -172,8 +144,8 @@ body{
     }
     .footer img{
         width: 27px;
-        height: 27px;
-    }
+        height: 27px; 
+    } 
 
     .footer p{
         position: relative;
