@@ -23,41 +23,7 @@ body{
 /* main-page start */
 
 
-.main-page{
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    position: relative;
-    width: 90%;
-    min-height: 90vh;
-    left: 50%;
-    margin-top: 100px;
-    transform: translateX(-50%);
-    max-width: 1800px;    
-    background-color: rgb(30, 127, 93);    
-}
 
-.main-page h1{
-    position: relative;
-    text-align: center;
-    padding: 2.5rem;
-    /* background-color: #0093E9; */
-    text-decoration-line:underline;
-    text-decoration-color: #8B8F84;
-}
-
-.main-page ul{
-    /* background-color: red; */
-    position: relative;
-    left: 100px;
-}
-
-.main-page ul li{
-    position: relative;
-    margin: 10px;
-    font-size: 1.4rem;
-  
-}
 
 
 

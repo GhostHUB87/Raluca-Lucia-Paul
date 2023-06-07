@@ -14,9 +14,12 @@ body{
 
 /* header start */
 
+.header{
+    background-image: linear-gradient(160deg, #b4cdffc6 55%, #80d0c79f 100%) !important; 
+}
+
 .logo{ 
     background-image: url("images/logo3.svg");
-
 }
 
 /* header end */
@@ -51,15 +54,20 @@ body{
 }
 
 .left-main{
-    background-color: rgb(178, 193, 188);
+    background-color:   #d4d4d4a1 !important;
+
+
     width: 45%;
-    background-image: url("images/v2.jpeg");   
+    background-image: url("images/v3.png");   
     background-size: cover;
     background-position: 35%;
     background-repeat: no-repeat;    
     border-radius: 20px;
     box-shadow: 14px 9px 33px -1px rgba(0,0,0,0.75);
 }
+
+
+
 
 
 .right-main{
@@ -182,7 +190,7 @@ body{
 
     .right-main {
         width: 55%;
-        padding: 0;
+        padding: 0 ;
     }
 
     .right-main h2{
@@ -191,8 +199,10 @@ body{
     }
 
     .right-main p{
-        padding: 5%;
+        font-size: 1.37rem !important;
+        padding: 2%;
         margin: 0;
+
     }
 }
 
@@ -221,3 +231,4 @@ body{
         font-size: 1.1rem !important;
     }
 }
+
