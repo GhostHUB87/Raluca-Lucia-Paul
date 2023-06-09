@@ -22,6 +22,17 @@ body {
 
 /* main-page start */
 
+.main-page *{
+  /* border: 2px solid black */
+}
+
+ul{
+  width: 70%;   
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
 
 /* main-page end */
 

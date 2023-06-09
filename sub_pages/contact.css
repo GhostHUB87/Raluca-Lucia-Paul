@@ -194,21 +194,24 @@ background-image: linear-gradient(45deg, #ffffff 0%, #233f4765 89%, #ffffff 100%
   }
 
   .contact2 {
-    /* background-color: rgb(144, 144, 97); */
+    background-color: rgb(3, 3, 3);
    
     width: 55%;   
+   
    
     /* height: 700px; */
   }
 
   .contact2 p{
-    
-   
+    /* background-color: red; */
+    text-indent: 0rem !important;
   }
 
   .contact2 input {
     font-size: 0.1rem;
     height: 40px;
+    width: 80%;
+    /* background-color: red; */
   }
 
   #mesaj {

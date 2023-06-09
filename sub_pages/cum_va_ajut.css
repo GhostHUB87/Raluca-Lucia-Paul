@@ -23,9 +23,24 @@ body{
 
 /* main-page start */
 
-.main-page h1{
- 
+.main-page *{
+ /* border: 2px solid black */
 }
+
+ ul{
+    width: 80%;   
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.
+
+
+
+
+
 
 
 /* main-page end */
